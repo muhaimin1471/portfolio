@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kazi Md. Muhaiminul Islam — Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="site-title">Kazi Md. Muhaiminul Islam</h1>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Profile Section -->
+    <section id="profile" class="profile-section container">
+      <div class="profile-card">
+        <img src="assets/profile.jpg" alt="Kazi Md. Muhaiminul Islam — profile photo" class="profile-img">
+        <div class="profile-bio">
+          <h2>Hello, world!</h2>
+          <p>
+            I am <strong>Kazi Md. Muhaiminul Islam</strong>, a <strong>Chemical Engineer</strong> working at a petroleum processing plant. I am learning full-stack development to support industrial automation, data acquisition and digital transformation.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about container">
+      <h2>About Me</h2>
+      <p>
+        Although programming is not traditionally part of a chemical engineer’s core responsibilities, the rapid evolution of modern technology has made programming and digital skills essential across all disciplines. I am enrolled in Ostad's Fullstack Web Development course (Python–Django–React), Batch 7.
+      </p>
+
+      <h3>How I Will Benefit From the Course</h3>
+      <p>
+        By mastering Python, Django and React I aim to build semi-digital data acquisition systems, automate tasks, improve analysis and support refinery digitalization.
+      </p>
+
+      <h3>Skills</h3>
+      <ul>
+        <li>Python — Basic</li>
+        <li>JavaScript — Fundamental</li>
+        <li>Excel — Basic</li>
+        <li>Petroleum Process Engineering — Proficient (9 years)</li>
+      </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Semi-digital DAQ</h3>
+          <p>A semi-digital logging system for Yokogawa controllers and DX DAQ stations — manual + automatic entry and reporting.</p>
+        </article>
+
+        <article class="project-card">
+          <h3>Furnace Monitoring</h3>
+          <p>Basic web dashboard prototype to visualize temperature and alarm logs for a natural-draft heater.</p>
+        </article>
+
+        <article class="project-card">
+          <h3>Process Data Parser</h3>
+          <p>Small Python utility to parse tabular process logs and generate CSV/summary reports.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact / Footer anchor -->
+    <section id="contact" class="contact container">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:muhaimin1471@gmail.com">muhaimin1471@gmail.com</a></p>
+      <p>Phone: 0175-999-1229</p>
+      <p>GitHub: <a href="https://github.com/muhaimin1471" target="_blank" rel="noopener">github.com/muhaimin1471</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Kazi Md. Muhaiminul Islam. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // set current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
